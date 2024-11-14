@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #21283C;
+}
+
+body{
+
+    background-color: lightgray;
+}
+
+.wrap{
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 20px;
+text-align: center;
+margin-top: 150px;
+}
+.wrap button img{
+    border-radius: 50% ;
+    width: 30px;
+    height: 30px;
+
+
+}
+
+button{
+    display: flex;
+    align-items: center;
+    padding: 8px 25px ;
+    background-color: #21283C;
+    color: white;
+    gap: 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+
+
+}
+
+button:active{
+    background-color: white;
+    color: #21283C;
+    cursor: pointer;
+    border: 1px solid #21283C;
+}
+.btns{
+    display: flex;
+    gap:10px;
+
+}
+.btns button{
+
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.btns button:active{
+    background-color: #444;
+    cursor: pointer;
+}
+.natija{
+    font-size: 50px;
+    color: darkorange;
+}
